@@ -1,0 +1,51 @@
+
+
+
+.container{
+  
+    width:100%;
+   
+    background-color: chartreuse;
+    display: flex;
+/*     flex-direction: column; asagi salir */   
+  /*   flex-direction: column-reverse; asagi salir eksine duzur */
+  /* flex-direction: row   yan yana getiri;
+  flex-direction: row-reverse; yan yanan eksine cevirir */
+  /* flex-wrap: wrap; asagi salir sixilanda width */
+  /* flex-wrap: nowrap; asagi salmir sixilanda */
+ /*  flex-wrap: wrap-reverse;  asagi salir eksine duzur */
+/*  justify-content: center  width istiqametide ortaya getirir;
+ justify-content: end  width istiqametide sona getirir;
+ justify-content: flex-start width istiqametide evvele getirir;
+ justify-content: space-between width istiqametide beraber bolur  getirir;
+ justify-content: space-around  width istiqametide bolur yazib baxin  r;
+ justify-content: space-evenly;width istiqametide bolur arabosluq eyni olmaqla  getirir */
+ /* align-items: center; heigth istiqametinde ortaya getiri */
+ /* align-items: flex-end; heigth istiqametinde sona getiri */
+/*  justify-content: center width istiqametinde ortaya getiri;
+ align-items: center heigth istiqametinde ortaya getiri;
+ ;
+ align-items: flex-end;  heigth istiqametinde sona getirir*/
+ flex-wrap: wrap;
+row-gap: 10px;
+column-gap: 10px;
+justify-content: space-between;
+}
+
+
+.bir{
+   flex-basis: 100px; /* dasmanin qarsini alir elastik edir */
+   flex-basis: 100px;
+    background-color: chocolate;
+    
+}
+.iki{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 105, 210);
+}
+.uc{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(210, 30, 186);
+}
